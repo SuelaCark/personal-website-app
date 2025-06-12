@@ -5,7 +5,7 @@ import '../styles/experience.css'
 const Experience = () => {
   const education = [
     {
-      duration: "2021 - Present",
+      duration: "2021 - 2025",
       titleEdu: "Bachelor of Computer Science",
       school: "American University in Bulgaria (AUBG)",
       location: "Blagoevgrad, Bulgaria",
