@@ -46,8 +46,8 @@ function Contact() {
             <h3>Suela Çarkaxhija</h3>
             <p>Software Engineer</p>
             <br />
-            <p>123-456-789</p>
-            <p>XXX@yyy.edu</p>
+            {/* <p>123-456-789</p>
+            <p>XXX@yyy.edu</p> */}
             <p><a href="https://github.com/SuelaCark">GitHub</a>: @SuelaCark</p>
             <p><a href="https://www.linkedin.com/in/suelacark">LinkedIn</a>: @Suela Çarkaxhija</p>
           </div>
