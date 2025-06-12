@@ -1,0 +1,293 @@
+.experience-page {
+    color: white;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+  
+.journey-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.journey-container h4 {
+    font-size: 1.2rem;
+    margin: 0;
+    margin-top: 1%;
+}
+
+.education {
+    position: relative;               
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;    
+    border-radius: 8px;
+  }
+  
+  .edu-card {
+    position: relative;
+    width: 25%;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    text-align: left;
+    background-color: rgba(71, 143, 145, 0.8);
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slideInLeft 0.6s forwards;
+  }
+
+  @keyframes slideInLeft {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .edu-info {
+    padding-bottom: 10%;
+    line-height: 0.9rem;
+  }
+  
+  /* The Dot (circle) in each card */
+  .edu-dot {
+    position: absolute;
+    top: 33%;
+    width: 12px;
+    height: 12px;
+    background: orange; 
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Edu-card info */
+  #edu-duration, #exp-duration {
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+  }
+  
+  #edu-title, #exp-position {
+    font-size: 1rem;
+  }
+  
+  #edu-school, #exp-company {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+    color: #ffd700;
+  }
+  
+  #edu-location, #exp-location {
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+  
+  #edu-description, #exp-desc {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    text-align: justify;
+  }
+  
+  /* Line between dots*/
+  .education::after {
+    content: "";
+    position: absolute;
+    top: 34.5%; 
+    left: 1%;
+    right: 15%;
+    height: 1.8px;
+    background: #ddd; 
+    z-index: 0;
+  }
+
+/* Experience Section */
+.experience-section {
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+    .experience-section h4 {
+      margin-top: 5%;
+      margin-bottom: 2.5%;
+    }
+
+    .experience-page h2 {
+        text-align: center;
+        background-color: orange;
+        padding: 1%;
+        width: 30%;
+        border-radius: 8px;
+    }
+  
+    .experience-card {
+        position: relative;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experience-cards {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        width: 85%;
+        border-radius: 10px;
+        background-color: rgba(71, 143, 145, 0.8);
+    }
+
+    /* Vertical line in the center */
+    .experience-cards::before {
+        content: "";
+        position: absolute;
+        top: 4%;
+        bottom: 9%;
+        left: 50%;
+        width: 1.8px;
+        background: #ddd; 
+        z-index: 1;
+    }  
+
+    .exp-dot {
+        position: absolute;
+        top: 25%;
+        left: 49.5%;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: orange;
+        z-index: 2;
+    }
+
+    .experience-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.7rem 2rem;
+        border-radius: 8px;
+        gap: 5rem;
+        line-height: 1rem;
+    }
+
+    /* Left and right parts inside the experience card */
+    .exp-info-left,
+    .exp-info-right {
+      flex: 1;
+      width: 48%;
+    }
+
+    .exp-info-right {
+      text-align: left;
+      order: 2;
+    }
+
+    .exp-info-left {
+      order: 1;
+      text-align: right;
+    }
+
+    /* If the card has the "right" class, swap the orders */
+    .experience-card.right .exp-info-left {
+        order: 2;
+        text-align: left;
+    }
+    
+    .experience-card.right .exp-info-right {
+        order: 1;
+        text-align: right;
+    }
+    
+    #exp-position {
+      font-weight: bold;
+    }
+
+@media (max-width: 1360px) {
+    .education::after {
+      top: 30%; 
+    }
+    .edu-dot {
+      top: 28.5%;
+    }
+}
+  
+/* Tablet and smaller */
+@media (max-width: 1024px) {
+  .experience-page h2 {
+    padding: 1.5% 6%;
+    width: 30%;
+  }
+  .edu-card {
+    width: 40%;
+  }
+  .education {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .education::after,
+  .edu-dot {
+    display: none; 
+  }
+  .edu-info {
+    padding-bottom: 0.4rem;
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .experience-page h2 {
+    font-size: 1.3rem;
+    padding: 2% 10%;
+    width: 30%;
+  }
+  .edu-card {
+    width: 100%; 
+    margin-bottom: 1.5rem;
+  }
+  .edu-info {
+    padding-bottom: 0.2rem;
+  }
+  .edu-dot,
+  .education::after,
+  .experience-cards::before,
+  .exp-dot {
+    display: none; 
+  }
+  .exp-info-left,
+  .exp-info-right {
+    width: 100%;
+    text-align: left !important;
+    display: contents;
+  }
+  .experience-section h4 {
+    margin-bottom: 7%;
+  }
+  .journey-container h4 {
+    font-size: 1.2rem;
+  }
+  #exp-description {
+    font-size: 0.9rem;
+  }
+  .experience-info {
+    flex-direction: column;
+    gap: 0;
+    grid-template-areas:
+      "date    position"
+      "company company"
+      "location description";
+      align-items: start;
+      box-shadow: 1px 1px 1px #333;
+      border-radius: 0;
+  }
+  .experience-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+  
+
+  

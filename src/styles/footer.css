@@ -1,0 +1,12 @@
+.footer {
+  width: 100vw;
+  color: white;
+  padding: 0.02vh 0;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 0.8rem 1rem;  
+  }
+}

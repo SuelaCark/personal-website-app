@@ -1,0 +1,119 @@
+.project-detail {
+    width: 80%;
+    margin: 0.7rem auto;
+    padding: 1rem 2rem;
+    background-color: rgba(71, 143, 145, 0.8);  
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    color: white;
+  }
+  .not-found {
+    padding: 2rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .project-detail h2 {
+    background-color: orange;
+    width: 50%;
+    border-radius: 8px;
+    padding: 1% 3%;
+    font-size: 1.3rem;
+  }
+  
+  .project-detail-content {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-detail-image {
+    flex: 1 1;
+    width: 50%;
+    border-radius: 8px;
+    max-height: 220px; 
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  }
+  
+  .project-detail-description {
+    flex: 1 1;
+    font-size: 1rem;
+    line-height: 1.4;
+    text-align: justify;
+    padding: 1rem;
+  }
+  
+  .project-detail-button {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .back-button, .github-button, .not-found button {
+    padding: 0.5rem 1.5rem;
+    background-color: orange;
+    color: #333;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: bold;
+  }
+  
+  .back-button:hover, .github-button:hover {
+    background-color: #ffd700;
+  }
+  
+  /* Responsive: Tablet */
+  @media (max-width: 1024px) {
+    .project-detail {
+      padding: 1.5rem;
+    }
+    .project-detail h2 {
+      width: 50%;
+      font-size: 1.5rem;
+    }
+    .project-detail-content {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .project-detail-description {
+      font-size: 0.95rem;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .project-detail-image {
+      width: 80%;
+      height: auto;
+    }
+  }
+  
+  /* Responsive: Mobile */
+  @media (max-width: 768px) {
+    .project-detail {
+      padding: 1rem;
+    }
+    .project-detail h2 {
+      width: 70%;
+      font-size: 1.3rem;
+    }
+    .project-detail-content {
+      flex-direction: column;
+      padding: 0 1rem;
+    }
+    .project-detail-description {
+      font-size: 0.9rem;
+      padding: 0.5rem;
+    }
+    .back-button, .github-button {
+      font-size: 0.8rem;
+      padding: 0.5rem 1.1rem;
+    }
+    .project-detail-button {
+        margin-top: 0.2rem;
+    }
+  }
+  
