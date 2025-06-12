@@ -1,5 +1,5 @@
-import '../styles/about-me.css'
-import codingimg from '../src/assets/coding.avif'
+import '../styles/about-me.css';
+import codingimg from '/assets/coding.avif';
 
 const AboutMe = () => {
   const skills = [

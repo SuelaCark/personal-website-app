@@ -1,5 +1,5 @@
 import '../styles/landing.css'
-import photo from '../src/assets/suela-photo.jpeg';
+import photo from '/assets/suela-photo.jpeg';
 
 function Landing() {
   return (
