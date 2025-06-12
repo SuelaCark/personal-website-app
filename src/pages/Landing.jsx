@@ -1,4 +1,4 @@
-import '../styles/landing.css'
+import '../styles/landing.css';
 import photo from '../assets/suela-photo.jpeg';
 
 function Landing() {

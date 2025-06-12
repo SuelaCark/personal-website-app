@@ -1,4 +1,5 @@
-import '../styles/contact.css'
+import '../styles/contact.css';
+import sphoto from '../assets/suela-photo.jpeg';
 
 function Contact() {
   // Form Functionality/backend to be developed in the future
@@ -41,7 +42,7 @@ function Contact() {
             </form>
           </div>
           <div className='contact-info-col'>
-          <img id="contact-pic" src="../src/assets/suela-photo.jpeg" alt="Picture of Suela" />
+          <img id="contact-pic" src={sphoto} alt="Picture of Suela" />
             <h3>Suela Çarkaxhija</h3>
             <p>Software Engineer</p>
             <br />

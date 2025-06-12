@@ -1,52 +1,61 @@
-import CertificateComp from '../components/CertificateComp'
-import '../styles/certifications.css'
+import CertificateComp from '../components/CertificateComp';
+import '../styles/certifications.css';
+import androidIcon from '../assets/android-icon.png';
+import smartCitiesIcon from '../assets/smart-cities-icon.png';
+import seoIcon from '../assets/seo-icon.png';
+import webDevIcon from '../assets/webdev-icon.png';
+import pythonIcon from '../assets/python-icon.png';
+import javaIcon from '../assets/java-icon.png';
+import magazineIcon from '../assets/magazine-icon.png';
+import paperIcon from '../assets/paper-icon.png';
+import usaIcon from '../assets/usa-icon.png';
 
 const Certifications = () => {
   const certificates = [
     {
       title: "Java Enterprise & Mobile Programming",
-      image: "src/assets/android-icon.png",
+      image: {androidIcon},
       description: ""
     },
     {
       title: "Artificial Intelligence for Smart Cities",
-      image: "src/assets/smart-cities-icon.png",
+      image: {smartCitiesIcon},
       description: ""
     },
     {
       title: "Technical SEO",
-      image: "src/assets/seo-icon.png",
+      image: {seoIcon},
       description: ""
     },
     {
       title: "Web Development (HTML, CSS, Javascript, ReactJs)",
-      image: "src/assets/webdev-icon.png",
+      image: {webDevIcon},
       description: ""
     },
     {
       title: "Python Programming",
-      image: "src/assets/python-icon.png",
+      image: {pythonIcon},
       description: ""
     },
     {
       title: "Java Programming",
-      image: "src/assets/java-icon.png",
+      image: {javaIcon},
       description: ""
     },
     {
       title: "Women Leaders in the Tech Industry 2023",
-      image: "src/assets/magazine-icon.png",
+      image: {magazineIcon},
       description: "“Women Leaders in the Tech Industry 2023” – DevStyler Magazine, Bulgaria."
     },
     {
       title: "Lung Cancer Detection Reserach Project",
-      image: "src/assets/paper-icon.png",
+      image: {paperIcon},
       description: "Project “Lung Cancer Detection Using Machine Learning and Data Analysis Techniques” -  International " +
       "Karatekin Science and Technology Conference, Çankiri, Turkey. "
     },
     {
       title: "U.S. Department of State",
-      image: "src/assets/usa-icon.png",
+      image: {usaIcon},
       description: "Certificate for successful completion of the YES program."
     }
   ];

@@ -1,6 +1,11 @@
 import ProjectComp from '../components/ProjectComp';
 import projectsData from '../data/projectsData'; 
-import '../styles/projects.css'
+import '../styles/projects.css';
+import projectimg1 from '../assets/project-img1.webp';
+import projectimg2 from '../assets/project-img2.png';
+import projectimg3 from '../assets/project-img3.webp';
+import projectimg4 from '../assets/project-img4.webp';
+import projectimg5 from '../assets/project-img5.webp';
 
 const Projects = () => {
   const projects = [
@@ -8,31 +13,31 @@ const Projects = () => {
       id: "1",
       title: "Image Encryption System (Senior Thesis)",
       description: "Developing Chaos-based, DNA-based and AES-256 encryption algorithms in Java (in progress).",
-      image: "/src/assets/project-img1.webp"
+      image: {projectimg1}
     },
     { 
       id: "2",
       title: "Personal Website",
       description: "Designed and developed a personal website to showcase portfolio and projects ",
-      image: "/src/assets/project-img2.png"
+      image: {projectimg2}
     },
     { 
       id: "3",
       title: "Flight Management System",
       description: "Developed a system to manage various types of flights in an airport (in C++).",
-      image: "/src/assets/project-img3.webp"
+      image: {projectimg3}
     },
     { 
       id: "4",
       title: "Encryption Algorithms",
       description: "Demonstrating various encryption algorithms and their implementations in Python.",
-      image: "/src/assets/project-img4.webp"
+      image: {projectimg4}
     },
     {
       id: "5",
       title: "AI-based Tourism Recommendation Website",
       description: "Hackathon project on innovative development techniques in tourism.",
-      image: "/src/assets/project-img5.webp"
+      image: {projectimg5}
     }
   ];
 
