@@ -1,4 +1,5 @@
 import '../styles/about-me.css'
+import codingimg from '../src/assets/coding.avif'
 
 const AboutMe = () => {
   const skills = [
@@ -27,7 +28,7 @@ const AboutMe = () => {
                 </p>
               </div>
               <div className='about-image'>
-                <img src="../src/assets/coding.avif" alt="Coding image" />
+                <img src={codingimg} alt="Coding image" />
               </div>
         </section>
         
