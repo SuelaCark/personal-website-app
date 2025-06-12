@@ -238,6 +238,9 @@
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
+  .experience-cards {
+    width: 100%;
+  }
   .experience-page h2 {
     font-size: 1.3rem;
     padding: 2% 10%;
