@@ -4,6 +4,12 @@ This repository contains my personal portfolio website built to showcase my resu
 
 ---
 
+## View Website
+
+- You can view the full website on the following link: https://suelacark.github.io/personal-website-app 
+
+---
+
 ## Project Overview
 
 - **Purpose:**  
