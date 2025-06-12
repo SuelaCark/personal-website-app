@@ -9,14 +9,15 @@ const Experience = () => {
       titleEdu: "Bachelor of Computer Science",
       school: "American University in Bulgaria (AUBG)",
       location: "Blagoevgrad, Bulgaria",
-      description: "Bachelor of Arts in Computer Science. Software Develoopment Concentration. Minor: Philosophy. Dean's List Fall 2022, Fall 2024. CGPA 3.75 / 4.00"
+      description: "Bachelor of Arts in Computer Science (conferred with honors). Magna Cum Laude. Software Develoopment Concentration." +
+      "Minor in Philosophy. CGPA 3.73 / 4.00. Awards: Outstanding Achievements in Computer Science and Philosophy. Dean's List Fall 2022, Fall 2024."
     },
     {
       duration: "2023 - 2024",
       titleEdu: "Erasmus+ Exchange",
       school: "Otto-Friedrich-Universitaet Bamberg",
       location: "Bamberg, Bavaria, Germany",
-      description: "Study abroad coursework in Applied Computer Science."
+      description: "Erasmus+ academic year study abroad program in Applied Computer Science."
     }, 
     {
       duration: "2018 - 2021",
@@ -30,7 +31,7 @@ const Experience = () => {
       titleEdu: "Exchange Year Abroad",
       school: "West Florence High School",
       location: "Florence, South Carolina, USA",
-      description: "Study abroad coursework in high school. CGPA 4.00 / 4.00"
+      description: "Kennedy-Lugar YES Program academic year study abroad in high school. CGPA 4.00 / 4.00"
     }
   ];
 
@@ -40,8 +41,10 @@ const Experience = () => {
       position: "Software Engineer / Project Manager",
       company: "Aracom IT Services GMBH",
       location: "Bamberg, Bavaria, Germany",
-      description: "Developed a smart grocery app with Java Spring Boot, JavaFX, and MySQL that uses the Apriori algorithm for personalized suggestions. " + 
-      "As Scrum Master, improved delivery efficiency by 15% and reduced integration issues by 30% with effective team collaboration."
+      description: "(In collaboration with the Chair of Software Engineering and Programming Languages of Otto-Friedrich-Universität Bamberg). " +
+      "Designed a Smart Grocery List application that delivers personalized suggestions to elevate the shopping experience. " +
+      "Developed using Java Spring Boot, JavaFX, and MySQL. Led agile sprints as Scrum Master; boosted delivery efficiency by managing the " +
+      "product backlog and sprint planning. Collaborated with team members using Git/GitLab, reducing code integration issues. "    
     },
     {
       duration: "September 2022 - September 2023",
@@ -49,7 +52,7 @@ const Experience = () => {
       company: "The Hub AUBG",
       location: "Blagoevgrad, Bulgaria",
       description: "Built and maintained a responsive HUB AUBG website using HTML, CSS, React (frontend) and Go, Python (backend). " + 
-      "Managed a development team to reduce delays and aligned UI/UX design with stakeholder recommendations."
+      "Managed a development team to reduce delays and aligned UI/UX design with stakeholder recommendations. "
     }, 
     {
       duration: "June 2023",
@@ -63,14 +66,16 @@ const Experience = () => {
       position: "Project Consultant / Intern",
       company: "Jakova Innovation Center",
       location: "Gjakova, Kosovo",
-      description: "Enhanced proposals and marketing materials to secure funding, streamlined documentation and bilingual communications, and contributed strategic ideas that improved project implementation."
+      description: "Enhanced project proposals and marketing materials. Wrote grant applications that secured successful funding. " +
+      "Streamlined documentation and bilingual communications. Contributed strategic ideas that improved project implementation. "
     },
     {
       duration: "July 2022 - August 2022",
       position: "Tech Intern",
       company: "Bonevet",
       location: "Gjakova, Kosovo",
-      description: "Supported sustainable smart city projects by integrating software and hardware, conducting relevant research, and generating innovative ideas that enhanced project execution."
+      description: "Supervised and guided students on technical aspects of building projects. " +
+      "Monitored project progress and provided feedback throughout the construction and planning phases."
     }
   ];
 

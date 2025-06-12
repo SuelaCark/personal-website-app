@@ -9,9 +9,36 @@ import javaIcon from '../assets/java-icon.png';
 import magazineIcon from '../assets/magazine-icon.png';
 import paperIcon from '../assets/paper-icon.png';
 import usaIcon from '../assets/usa-icon.png';
+import badgeIcon from '../assets/badge-icon.png';
 
 const Certifications = () => {
   const certificates = [
+    {
+      title: "Outstanding Achievement in Computer Science (2025)",
+      image: badgeIcon,
+      description: "Awarded by the Computer Science department, American University in Bulgaria, Bulgaria."
+    },
+    {
+      title: "Outstanding Achievement in Philosophy (2025)",
+      image: badgeIcon,
+      description: "Awarded by the Philosophy department, American University in Bulgaria, Bulgaria."
+    },
+    {
+      title: "Women Leaders in the Tech Industry 2023",
+      image: magazineIcon,
+      description: "“Women Leaders in the Tech Industry 2023” – DevStyler Magazine, Bulgaria."
+    },
+    {
+      title: "Lung Cancer Detection Reserach Project",
+      image: paperIcon,
+      description: "Project “Lung Cancer Detection Using Machine Learning and Data Analysis Techniques” -  International " +
+      "Karatekin Science and Technology Conference, Çankiri, Turkey. "
+    },
+    {
+      title: "U.S. Department of State",
+      image: usaIcon,
+      description: "Certificate for successful completion of the Kennedy-Lugar YES program."
+    },
     {
       title: "Java Enterprise & Mobile Programming",
       image: androidIcon,
@@ -41,22 +68,6 @@ const Certifications = () => {
       title: "Java Programming",
       image: javaIcon,
       description: ""
-    },
-    {
-      title: "Women Leaders in the Tech Industry 2023",
-      image: magazineIcon,
-      description: "“Women Leaders in the Tech Industry 2023” – DevStyler Magazine, Bulgaria."
-    },
-    {
-      title: "Lung Cancer Detection Reserach Project",
-      image: paperIcon,
-      description: "Project “Lung Cancer Detection Using Machine Learning and Data Analysis Techniques” -  International " +
-      "Karatekin Science and Technology Conference, Çankiri, Turkey. "
-    },
-    {
-      title: "U.S. Department of State",
-      image: usaIcon,
-      description: "Certificate for successful completion of the YES program."
     }
   ];
     return (

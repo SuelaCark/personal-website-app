@@ -9,7 +9,7 @@ const AboutMe = () => {
     { name: "HTML, CSS, ReactJS", percent: 90 },
     { name: "Python programming", percent: 70 },
     { name: "Linux/Bash scripting", percent: 70 },
-    { name: "Java programming", percent: 97 },
+    { name: "Java programming", percent: 95 },
     { name: "C++", percent: 90 }
   ];
 

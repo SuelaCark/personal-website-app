@@ -1,5 +1,4 @@
 import ProjectComp from '../components/ProjectComp';
-import projectsData from '../data/projectsData'; 
 import '../styles/projects.css';
 import projectimg1 from '../assets/project-img1.webp';
 import projectimg2 from '../assets/project-img2.png';
@@ -12,19 +11,19 @@ const Projects = () => {
     { 
       id: "1",
       title: "Image Encryption System (Senior Thesis)",
-      description: "Developing Chaos-based, DNA-based and AES-256 encryption algorithms in Java (in progress).",
+      description: "Developed Chaos-based, DNA-based, and AES-256 encryption algorithms and a Hybrid algorithm in Java. ",
       image: projectimg1
     },
     { 
       id: "2",
       title: "Personal Website",
-      description: "Designed and developed a personal website to showcase portfolio and projects ",
+      description: "Designed and developed a personal website with ReactJs to showcase portfolio and projects. ",
       image: projectimg2
     },
     { 
       id: "3",
       title: "Flight Management System",
-      description: "Developed a system to manage various types of flights in an airport (in C++).",
+      description: "Developed a C++ system to manage various types of flights in an airport. ",
       image: projectimg3
     },
     { 
