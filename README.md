@@ -34,18 +34,19 @@ Other dependencies include any additional NPM packages required by Vite and your
 ## Project Structure
 
 The project is organized as follows:
+```
 my-personal-website/ 
 ├── public/ # Static files (e.g., vite.svg) 
 ├── src/ 
-│ ├── assets/ # Images and other assets 
-│ ├── components/ # Reusable components (Navbar, Footer, ProjectComp, CertificateComp, etc.) 
-│ ├── data/ # Data files (e.g., projectsData.js) 
-│ ├── pages/ # Page components (Landing, AboutMe, Experience, Projects, Certifications, Contact) 
-│ ├── styles/ # Global and component-specific CSS files 
-│ ├── App.css # Application CSS styling
-│ ├── App.jsx # Main application component including routing logic 
-│ ├── index.css # Main application CSS styling
-│ └── main.jsx # Entry point (wrapped with BrowserRouter) 
+│   ├── assets/ # Images and other assets 
+│   ├── components/ # Reusable components (Navbar, Footer, ProjectComp, CertificateComp, etc.) 
+│   ├── data/ # Data files (e.g., projectsData.js) 
+│   ├── pages/ # Page components (Landing, AboutMe, Experience, Projects, Certifications, Contact) 
+│   ├── styles/ # Global and component-specific CSS files 
+│   ├── App.css # Application CSS styling
+│   ├── App.jsx # Main application component including routing logic 
+│   ├── index.css # Main application CSS styling
+│   └── main.jsx # Entry point (wrapped with BrowserRouter) 
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
@@ -53,6 +54,7 @@ my-personal-website/
 ├── package.json # Project metadata and dependencies 
 ├── README.md # This documentation
 └──vite.config.js
+```
 
 ---
 
