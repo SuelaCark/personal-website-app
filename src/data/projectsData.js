@@ -28,7 +28,7 @@ const projectsData = [
       description: "A comprehensive system developed in C++ to manage diverse flight operations at an airport. " + 
       "It features a developed QuickSort algorithm and the usage of vectors, pointers, and OOP principles.",
       image: projectimg3,
-      githubLink: ""
+      githubLink: "https://github.com/SuelaCark/FlightManagement"
     },
     { 
       id: "4",
