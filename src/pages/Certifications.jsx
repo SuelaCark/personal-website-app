@@ -14,48 +14,48 @@ const Certifications = () => {
   const certificates = [
     {
       title: "Java Enterprise & Mobile Programming",
-      image: {androidIcon},
+      image: androidIcon,
       description: ""
     },
     {
       title: "Artificial Intelligence for Smart Cities",
-      image: {smartCitiesIcon},
+      image: smartCitiesIcon,
       description: ""
     },
     {
       title: "Technical SEO",
-      image: {seoIcon},
+      image: seoIcon,
       description: ""
     },
     {
       title: "Web Development (HTML, CSS, Javascript, ReactJs)",
-      image: {webDevIcon},
+      image: webDevIcon,
       description: ""
     },
     {
       title: "Python Programming",
-      image: {pythonIcon},
+      image: pythonIcon,
       description: ""
     },
     {
       title: "Java Programming",
-      image: {javaIcon},
+      image: javaIcon,
       description: ""
     },
     {
       title: "Women Leaders in the Tech Industry 2023",
-      image: {magazineIcon},
+      image: magazineIcon,
       description: "“Women Leaders in the Tech Industry 2023” – DevStyler Magazine, Bulgaria."
     },
     {
       title: "Lung Cancer Detection Reserach Project",
-      image: {paperIcon},
+      image: paperIcon,
       description: "Project “Lung Cancer Detection Using Machine Learning and Data Analysis Techniques” -  International " +
       "Karatekin Science and Technology Conference, Çankiri, Turkey. "
     },
     {
       title: "U.S. Department of State",
-      image: {usaIcon},
+      image: usaIcon,
       description: "Certificate for successful completion of the YES program."
     }
   ];

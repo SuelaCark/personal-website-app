@@ -13,31 +13,31 @@ const Projects = () => {
       id: "1",
       title: "Image Encryption System (Senior Thesis)",
       description: "Developing Chaos-based, DNA-based and AES-256 encryption algorithms in Java (in progress).",
-      image: {projectimg1}
+      image: projectimg1
     },
     { 
       id: "2",
       title: "Personal Website",
       description: "Designed and developed a personal website to showcase portfolio and projects ",
-      image: {projectimg2}
+      image: projectimg2
     },
     { 
       id: "3",
       title: "Flight Management System",
       description: "Developed a system to manage various types of flights in an airport (in C++).",
-      image: {projectimg3}
+      image: projectimg3
     },
     { 
       id: "4",
       title: "Encryption Algorithms",
       description: "Demonstrating various encryption algorithms and their implementations in Python.",
-      image: {projectimg4}
+      image: projectimg4
     },
     {
       id: "5",
       title: "AI-based Tourism Recommendation Website",
       description: "Hackathon project on innovative development techniques in tourism.",
-      image: {projectimg5}
+      image: projectimg5
     }
   ];
 
